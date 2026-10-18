@@ -1,4 +1,4 @@
-# ALONE-CODER
+# OGGY-CODER
 from os import getenv
 from dotenv import load_dotenv
 
@@ -6,8 +6,8 @@ load_dotenv()
 
 class Config:
     def __init__(self):
-        self.API_ID = int(getenv("API_ID", "17596251"))
-        self.API_HASH = getenv("API_HASH", "e58343b4c0193e293e391daf97603fcd")
+        self.API_ID = int(getenv("API_ID", "35240135"))
+        self.API_HASH = getenv("API_HASH", "ae695aab19eabd08974d67464b1975b2")
 
         self.BOT_TOKEN = getenv("BOT_TOKEN", "Apna Bot Token")
         self.MONGO_URL = getenv("MONGO_URL", "Apna Mongo Db Dalo")
@@ -19,8 +19,8 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneUpdates")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AloneBotSupport")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OGGYBOTSUPDATE")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/OGGYBOTSUPPORT")
 
         self.AUTO_END: bool = getenv("AUTO_END", False)
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", False)

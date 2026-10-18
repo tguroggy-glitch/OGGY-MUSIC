@@ -1,5 +1,5 @@
 {
-    "name": "˹𝞚𝙡𝞸𝞰𝞮 ✗ 𝙈𝙪𝙨𝙞𝙘 ♪˼",
+    "name": "𝞞𝙂𝙂𝙔 ✗ 𝙈𝙪𝙨𝙞𝙘♪˼",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://litter.catbox.moe/xroqew.jpg",
     "keywords": ["python3", "telegram", "bot", "music-bot"],
@@ -36,7 +36,7 @@
             "required": true
         },
         "SESSION": {
-            "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
+            "description": "A Pyrogram v2 String Session from @Sess625ion_bot on Telegram.",
             "value": "",
             "required": true
         }
